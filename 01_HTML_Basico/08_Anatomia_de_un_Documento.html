@@ -1,0 +1,41 @@
+<!--
+    Los elementos HTML individualmente no son muy útiles por sí solos. A continuación, examinemos cómo se combinan los
+     elementos para formar una página HTML completa:
+-->
+<!doctype html>
+<html lang="es">
+<head><meta charset="utf-8" />
+<title>Mi página de prueba</title>
+</head>
+<body><p>Esta es mi página</p></body>
+</html>
+<!--
+    1. `<!DOCTYPE html>`: El tipo de documento. Cuando HTML era joven (1991-1992), los doctype estaban destinados 
+    a actuar como enlaces a un conjunto de reglas que la página HTML tenía que seguir para ser considerada un buen 
+    HTML. Los doctypes solían parecerse a algo como esto:Más recientemente, el doctype es un artefacto histórico 
+    que debe incluirse para que todo lo demás funcione correctamente. `<!DOCTYPE html>` es la cadena más corta 
+    de caracteres que cuenta como un tipo de documento válido. ¡Eso es todo lo que necesitas saber!
+    
+    
+    ```html
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    ```
+    
+2. `<html></html>`: El elemento [`<html>`]. Este elemento envuelve todo el contenido de la página. A veces se le conoce como el elemento raíz.
+
+3. `<head></head>`: El elemento [`<head>`]. Este elemento actúa como un contenedor para todo lo que desea incluir en la página HTML, 
+    **que no es el contenido** que la página mostrará a los espectadores. Esto incluye palabras clave y una descripción de la página 
+    que aparecería en los resultados de búsqueda, CSS para dar estilo al contenido, declaraciones de conjuntos de caracteres y más. 
+    Aprenderás más sobre esto en el próximo artículo de la serie.
+
+4. `<meta charset="utf-8">`: El elemento [`<meta>`]. Este elemento representa metadatos que no pueden ser representados por otros 
+elementos HTML relacionados con metadatos, como [`<base>`], [`<link>`], [`<script>`], [`<style>`] o [`<title>`]. El atributo [`charset`] 
+    especifica la codificación de caracteres para su documento como UTF-8, que incluye la mayoría de los caracteres de la gran mayoría de 
+    los lenguajes humanos escritos. Con esta configuración, la página ahora puede manejar cualquier contenido textual que pueda contener.
+     No hay razón para no configurar esto, y puede ayudar a evitar algunos problemas más adelante.
+
+5. `<title></title>`: El elemento [`<title>`]. Esto establece el título de la página, que es el título que aparece en la pestaña del navegador 
+    en la que se carga la página. El título de la página también se utiliza para describir la página cuando está en marcadores.
+
+6. `<body></body>`: El elemento [`<body>`]texto, imágenes, vídeos, juegos, pistas de audio reproducibles o cualquier otra cosa.. 
+-->
