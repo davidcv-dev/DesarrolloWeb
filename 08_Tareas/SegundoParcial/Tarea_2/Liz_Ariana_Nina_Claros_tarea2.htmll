@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"> 
+<meta name ="viewport" content="width=device-width">
+<title> MI PORTAFOLIO  </title>
+<meta name="description" content="este es mi portafolio......">  
+<meta name="robots" content="index follow">
+<link rel="icon" href="imagenes/plomoo.jpg">
+<style>
+    body{ 
+        background-color:cadetblue;
+    }
+</style>
+</head>
+<body>
+    <h1> -PORTAFOLIO DE ARIANA- </h1>
+    <nav> 
+        <a href="#EXPERIENCIA"> Experiencia </a>
+        <a href="#PROYECTOS REALIZADOS"> Proyectos realizados </a>
+        </nav>
+    <img 
+    src="imagenes/perfil.jpg"
+     alt="foto de mi perfil "
+     title="mi foto"
+     width="150"
+     height="150">
+   <p> Soy Tecnica Superior en <strong> Ind. Textil y Confeccion, </strong> 
+    tambien cuento con un titulo de Tecnico Medio en <strong> Gastronomia. </strong>
+</p> 
+<h2 id="EXPERIENCIA"> EXPERIENCIA</h2>
+<ul> 
+<li> Pasteleria Flora 2022</li>
+<li> CeleSport 2023 </li>
+</ul>
+<h3 id="PROYECTOS REALIZADOS"> PROYECTOS REALIZADOS </h3>
+<aside> 
+    <ol type="1">
+        <li> Elaboracion de Bolsos Sostenibles a base de cascara de naranja en el Municipio de Llallagua</li>
+        <li> Mini Empresa DulceCupcakes en el Municipio de Llallagua </li>
+
+        <h3> Video Adicional </h3>
+       
+        <video 
+        width="230"
+        height="200"
+        src="video/pedropredro.mp4" controls
+        autoplay muted
+        loop> </video>
+
+        <h3> Audio </h3>
+
+        <audio
+        src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" controls>
+        Your browser does not support the <code>audio</code> element.
+    </audio>
+    </ul>
+</aside>
+<footer> 
+    <h3> FORMULARIO DE CONTACTO  </h3>
+    <form action="post" accept="/"> 
+     <fieldset>
+ <legend> Informacion de Contacto</legend>
+ <label for="nombre"> Nombre: </label> 
+ <input type="text" name="nombre" id="nombre" required><br><br>
+ <label>correo:
+     <input type="email" name="correo" id="correo">
+ </label>
+     </fieldset>
+     <fieldset>
+         <h3> Informacion Adicional </h3>
+         <label> telefono:
+          <input type="tel" name="telefono" id="telefono" required>    
+         </label>
+     </fieldset>
+ <div>
+     <label for="why"> Ponerse en contacto conmigo </label>
+     <select>
+         <option value="1"> Proponerme un empleo </option>
+         <option value="2"> Solicitar un diseño </option>
+         <option value="3"> Otros </option>
+     </select><br>
+     <div>
+         <label for="terms"> Aceptas los terminos </label>
+
+         <input type ="checkbox" name="terms" id="terms" required>   
+     </div>
+ </div><br>
+ <div> 
+    <datalist id="realizar un trabajo">
+        <option value="Diseño a medida">
+        <option value="Algun diseño especifico">
+        <option value="otros">
+    </datalist>
+    <label> ¿En qué puedo ayudarte más?
+        <input list="realizar un trabajo" name="realizar un trabajo">
+    </label>
+     
+ </div>
+ <input type ="submit" value=" ENVIAR ">
+ </form>
+     </section>
+      
+     <a href="mailto:ariananinaclaros15@gmail.com"> enviame un correo </a>
+     <a href="tel:+61996084"> llamame </a>
+     <a href="https://web.whatsapp.com/send?text=hola%20aris"> enviame un whatsapp</a>
+ 
+    <p> Todos los derechos reservados @liznina </p>
+</footer>
+</body>
+</html>
