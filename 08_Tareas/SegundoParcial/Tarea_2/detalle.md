@@ -1,6 +1,6 @@
 # Tarea #2: Realizar su portafolio en HTML segun lo avanzado
 # Fecha de entrega: 07/06/2024
-
+# Nota en el caso de que suban con una imagen guardenlo en una carpeta con su nombre
 ## Ejemplo:
 ```html
 <!DOCTYPE html>
