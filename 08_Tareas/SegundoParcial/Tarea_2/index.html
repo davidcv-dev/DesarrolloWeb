@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <!--esta etiqueta sirve para que aparezca en los motores de busqueda-->
+    <meta name="description" content="este es mi portafolio........">
+    <meta name="robots" content="index follow">
+    <link rel="icon" href="C:\Users\ASUS\Pictures\Imagen de WhatsApp 2024-06-07 a las 14.43.37_109c9228.jpg">
+    <style>
+        body{
+            background-color: #9e8bc5;
+        }
+    </style>
+</head>
+<body>
+    <h1>Portafolio de Gabriel</h1>
+    <nav>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#tecnologias">Tecnologías</a>
+        <a href="https://github.com/GabrielHuarayo" target="_blank">Mi GitHub</a>
+    </nav>
+    <img src="C:\Users\ASUS\Pictures\Imagen de WhatsApp 2024-06-07 a las 14.43.37_109c9228.jpg" alt="esta es el avatar dde mi perfil" title="mi avatar" width="100" height="100">
+    <p>estudiantes de segudo año de <strong>ingeniero informatico</strong> en el area de desarrollo</p>
+    <h2 id="experiencia">Experiencia</h2>
+    <ul>
+        <li> dormir</li>
+        <li>chatear</li>
+        <li>bailo</li>
+        <li>free fire</li>
+    </ul>
+    <h3 id="proyectos">Proyectos Realizados</h3>
+    <aside>
+        <h3 id="tecnologias">Mis Tecnologias Favoritas</h3>
+        <ol type="A">
+            <li>mobile legends</li>
+            <li>free fire</li>
+            <li>clash of clans</li>
+        </ol>
+    </aside>
+    <section>
+        <h3>Formulario de Contacto</h3>
+        <form action="post" accept-charset="utf-8">
+            <fieldset>
+                <legend>Información de Contacto</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" required><br><br>
+                <label>Correo:</label>
+                <input type="email" name="correo" id="correo" required>
+            </fieldset>
+            <fieldset>
+                <h3>Información Adicional</h3>
+                <label>Teléfono:
+                <input type="tel" name="telefono" id="telefono" pattern="[0-9]{8}">
+                </label>
+                <label for="why">Por que quieres Contactarme</label>
+                <select name="why" id="why">
+                    <option value="1">jugar</option>
+                    <option value="2">tomar chesquito</option>
+                    <option value="3">Otros</option>
+                </select>
+                <label for="terms">Aceptas los términos:</label>
+                <input type="checkbox" name="terms" id="terms" required>
+            </fieldset>
+            <datalist id="lenguajes">
+                <option value="free fire">
+                <option value="mobile legends">
+                <option value="clash of clans">
+            </datalist>
+            <label>¿Qué juego quieres que te ayude?
+            <input list="lenguajes" name="lenguajes">
+            </label>
+            <input type="submit" value="enviar datos">
+        </form>
+    </section>
+    <section>
+        <video width="320" height="240" controls loop>
+            <source src="C:\Users\ASUS\Videos\Video de WhatsApp 2024-06-07 a las 14.40.06_5e293bc5.mp4">
+        Your browser does not support the video tag.
+        </video>
+        <audio src="C:\Users\ASUS\Music\Audio de WhatsApp 2024-06-07 a las 14.44.35_1cc74b23.mp3" controls>
+        Your browser does not support the audio element.
+        </audio>
+    </section>
+    <footer>
+        <a href="gabrielhuarayohuayra@gmail.com"> enviame un correo</a>
+        <a href="tel:+59164386376">llamame</a>
+        <a href="whatsapp://send?text=hola gabriel">enviame un whatsapp</a>
+        <p>Todos los derechos reservados a gabriel</p>
+    </footer>
+</body>
+</html>
