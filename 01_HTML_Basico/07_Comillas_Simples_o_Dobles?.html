@@ -1,0 +1,21 @@
+<!--
+    también notarás que los atributos están entre comillas dobles. Sin embargo, es posible que veas comillas simples en algún código HTML. 
+    Es una cuestión de estilo.Puedes elegir libremente cuál prefieres. Ambas opciones son equivalentes:
+-->
+<a href='https://www.example.com'>Un enlace a mi ejemplo.</a>
+<a href="https://www.example.com">Un enlace a mi ejemplo.</a>
+<!--
+    Asegúrate de no mezclar comillas simples y comillas dobles. Este ejemplo (a continuación) muestra una especie 
+    de mezcla de comillas que saldrá mal:
+
+  *****<a href="https://www.example.com'>Un enlace a mi ejemplo.</a>*****
+
+    Sin embargo, si utilizas un tipo de comilla, puedes incluir el otro tipo de comilla *dentro* tus valores de atributo:
+-->
+<a href="https://www.example.com" title="¿No es 'esto' divertido?">
+    Un enlace a mi ejemplo.
+  </a>
+<!--
+    Esto es útil si necesitas usar comillas dobles en tu valor de atributo, pero estás rodeando el valor con comillas dobles. 
+    De lo contrario, tendrías que escapar de las comillas dobles con una barra invertida, lo que puede ser confuso.
+-->

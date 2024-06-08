@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="index follow">
+<meta name="viewport" content="width=device-width">
+<title>Mi Portafolio</title>
+<meta name="description" content="mi portafolio.......">
+<link rel="icon" href="i:\WhatsApp-Image-2024-06-07-at-6.04.43-PM.jpg">
+<style>
+body{
+background-color: #89dceb;
+}
+</style>
+</head>
+<body>
+<h1>Portafolio de Luis</h1>
+<nav>
+<a href="#experiencia">Experiencia</a>
+<a href="#proyectos">Proyectos</a>
+<a href="#tecnologias">Tecnologias</a>
+<a href="https://github.com/luisalbertomontecinos" target="_blank">Mi GitHub</a>
+</nav>
+
+<img
+src="i:\WhatsApp-Image-2024-06-07-at-6.04.43-PM.jpg"
+alt="este es el avatar de mi perfil"
+title="mi avatar"
+width="130"
+height="200"
+> 
+<p>1 año de experiencia como <strong>Estudiante de informatica</strong> en el area de desarrollo</p>
+<h2 id="experiencia">Experiencia</h2>
+<ul>
+<li>Estudiante de la UNSXX</li>
+<li>Taller de prototipado de paginas web con Figma</li>
+
+</ul>
+<h3 id="proyectos">Proyectos Realizados</h3>
+<aside>
+<h3 id="tecnologias">Mis Tecnologias Favoritas</h3>
+<ol type="A">
+<li>java</li>
+<li>python</li>
+<li>Figma</li>
+</ol>
+</aside>
+<section>
+<h3>Formulario de Contacto</h3>
+<form action="post" accept="/">
+<fieldset>
+<legend>Informacion de Contacto</legend>
+<label for="nombre">Nombre:</label>
+<input type="text" name="nombre" id="nombre" required><br><br>
+<label>Correo:
+<input type="email" name="correo" id="correo" required>
+</label>
+</fieldset>
+<fieldset>
+<div>
+<h3>Informacion Adicional</h3>
+<label>Telefono:
+<input type="tel" name="telefono" id="telefono" pattern=" (0-9){8}">
+</label>
+</div>
+<label for="why">Por que quieres Contactarme</label>
+<Select>
+<option value="1">Ofrecerme un Trabajo</option>
+<option value="2">Hacerme un Proyecto</option>
+<option value="3">Otros</option>
+</Select><br>
+<div>
+<label for="terms">aceptas los terminos</label>
+<input type="checkbox" name="terms" id="terms" required>
+</div>
+</div><br>
+<datalist id="lenguajes">
+<option value="java">
+<option value="python">
+    <option value="Figma"></option>
+</datalist>
+<label> que leguage quieres que te ayude?
+<input list="lenguajes" name="lenguajes">
+</label>
+</div>
+<input type="submit" value="enviar datos">
+</form>
+</section>
+<video
+width="320"
+height="240"
+src="c:\Users\Usuario\Downloads\Rick Astley - Never Gonna Give You Up (video oficial) __ Español.mp4"
+controls
+loop></video>
+<audio src="c:\Users\Usuario\Downloads\Rick Astley - Never Gonna Give You Up (video oficial) __ Español.mp3" controls>
+Your browser does not support the <code>audio</code> element.
+</audio>
+<footer>

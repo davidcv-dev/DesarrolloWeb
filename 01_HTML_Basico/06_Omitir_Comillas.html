@@ -1,0 +1,23 @@
+<!--
+    Si observa el código de muchos otros sitios, es posible que encuentre 
+    una serie de estilos de marcado extraños, incluidos los valores de 
+    atributos sin comillas. Esto está permitido en ciertas circunstancias, 
+    pero también puede romper su margen de beneficio en otras circunstancias. 
+    El elemento en el fragmento de código a continuación, <a>, se llama ancla. 
+    Los anclajes encierran texto y los convierten en enlaces. El atributo href especifica 
+    la dirección web a la que apunta el enlace. Puedes escribir esta versión básica a continuación 
+    con solo el atributo href, así:
+-->
+<a href=https://www.mozilla.org/>sitio web favorito</a>
+<!--
+    Los anclajes también pueden tener un atributo title, una descripción de la página vinculada. Sin embargo, tan pronto 
+    como añadimos el title de la misma manera que el atributo href hay problemas:
+-->
+<a href=https://www.mozilla.org/ title=Pagina de Mozilla>sitio web favorito</a>
+<!--
+    Como se ha escrito anteriormente, el navegador malinterpreta el marcado, confundiendo el atributo `title` 
+    con tres atributos: un atributo title con el valor `The`, y dos atributos booleanos, `Mozilla` y `homepage`.
+    ¡Obviamente, esto no es la intención! Causará errores o comportamientos inesperados.
+
+Incluya siempre las comillas de los atributos. Evita tales problemas y da como resultado un código más legible.
+-->
