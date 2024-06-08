@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="URF-8">
+        <meta name="viewport" content="width=decive-width">
+        <title>MI PORTAFOLIO</title>
+        <!--esta etiqueta sirve para que aparesca en los mentores de busqueda-->
+        <meta name="description" content="este es mi protafolio sobre el racism.....">
+        <meta name="robots" content="index follow">
+        <link rel="icon" href="imagenes/foto.jpg">
+        <style>
+            body{
+                background-color: lightblue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1><strong>PORTAFOLIO DE Carlos</strong></h1>
+<nav>
+<a href="#experiencia">Experiencia</a>
+<a href="#proyectos">Proyectos</a>
+<a href="#tecnologias">Tecnologias</a>
+</nav>
+        <img src="https://images.app.goo.gl/DE4fiZk5Tvhzywna9" 
+        alt="avatar de perfil"
+        title="mi avatar"
+        width="250px"
+        height="200px"
+        >
+        <P>+1 año de experencia como estudiante de ingeniería informatica en la UNSXX</P>
+        <h2>EXPERENCIAS</h2>
+        <ul>
+            <li>UNSXX</li>
+            <li>Videos en Internet</li>
+        </ul>
+        <h3 id="Proyectos realizados">PROYECTOS REALIZADOS</h3>
+        <aside>
+            <h3 id="Mis programas favoritos">Mis programas favoritos</h3>
+            <ol type="I">
+                <li>Xampp</li>
+                <li>Debian</li>
+                <li>Visual studio core</li>
+            </ul>
+        </aside>
+<section>
+<h3>Formulario de Contacto</h3>
+<form action="post" accept="/">
+<fieldset>
+<legend>Informacion de Contacto</legend>
+<label for="nombre">Nombre:</label>
+<input type="text" name="nombre" id="nombre" required><br>
+<label>Correo:
+<input type="email" name="correo" id="correo" required>
+</label>
+</fieldset>
+<fieldset>
+<h3>Informacion Adicional</h3>
+<label>Telefono:
+<input type="tel" name="telefono" id="telefono" pattern="(8-9)(8)">
+</label>
+</fieldset>
+<div>
+<label for="why">Por que quieres Contactarme</label>
+<Select>
+<option value="1">Ofrecerme un Trabajo</option>
+<option value="2">Hacerme un Proyecto</option>
+<option value="3">Otros</option>
+</Select><br>
+<div>
+<label for="terms">aceptas los terminos</label>
+<input type="button" name="terms" id="terms" required>
+</div>
+</div><br>
+<div>
+<datalist id="lenguages">
+<option value="java">
+<option value="c">
+<option value="htmlt">
+</datalist>
+<label> que leguage quieres que te ayude?
+<input list="Lenguages" name="lenguages">
+</label>
+</div>
+<input type="submit" value="enviar datos">
+</form>
+</section>
+<video
+width="320"
+height="240"
+src="https://youtu.be/_tA5cinv0U8?si=5B0RafdAD3ziE5Hp"
+controls
+loop></video>
+        <footer>
+            <a href="carloshualcanina@gmail.com">enviame un correo</a>
+            <a href="tel:+59173333127">llamame</a>
+            <p><strong>los derechos de copyrhigt son reservados a @2024</strong></p>
+            <a href="whatsapp://send?text=hola Carlos">hablame al pv</a>
+        </footer>
+    </body>
+
+</html>
