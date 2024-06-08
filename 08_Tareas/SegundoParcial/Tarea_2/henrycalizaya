@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="index follow">
+<meta name="viewport" content="width=device-width">
+<title>Mi Portafolio</title>
+<meta name="description" content="este es mi portafolio.......">
+<link rel="icon" href="photo_2024-06-07_15-54-23.jpg">
+<style>
+body{
+background-color: #ffffff;
+}
+</style>
+</head>
+<body>
+<h1>Portafolio de Henry</h1>
+<nav>
+<a href="#experiencia">Experiencia</a>
+<a href="#proyectos">Proyectos</a>
+<a href="#tecnologias">Tecnologias</a>
+<a href="https://github.com/HenryCalizaya" target="_blank">Mi GitHub</a>
+</nav>
+
+<img
+src="photo_2024-06-07_15-54-23.jpg"
+alt="este es el avatar de mi perfil"
+title="mi avatar"
+width="200"
+height="200"
+> 
+<p>1 año de experiencia como <strong>Estudiante de informatica</strong> en el area de desarrollo</p>
+<h2 id="experiencia">Experiencia</h2>
+<ul>
+<li>Estudiante</li>
+<li>Unsxx 2023</li>
+
+</ul>
+<h3 id="proyectos">Proyectos Realizados</h3>
+<aside>
+<h3 id="tecnologias">Mis Tecnologias Favoritas</h3>
+<ol type="A">
+<li>java</li>
+<li>python</li>
+</ol>
+</aside>
+<section>
+<h3>Formulario de Contacto</h3>
+<form action="post" accept="/">
+<fieldset>
+<legend>Informacion de Contacto</legend>
+<label for="nombre">Nombre:</label>
+<input type="text" name="nombre" id="nombre" required><br><br>
+<label>Correo:
+<input type="email" name="correo" id="correo" required>
+</label>
+</fieldset>
+<fieldset>
+<div>
+<h3>Informacion Adicional</h3>
+<label>Telefono:
+<input type="tel" name="telefono" id="telefono" pattern=" (0-9){8}">
+</label>
+</div>
+<label for="why">Por que quieres Contactarme</label>
+<Select>
+<option value="1">Ofrecerme un Trabajo</option>
+<option value="2">Hacerme un Proyecto</option>
+<option value="3">Otros</option>
+</Select><br>
+<div>
+<label for="terms">aceptas los terminos</label>
+<input type="checkbox" name="terms" id="terms" required>
+</div>
+</div><br>
+<datalist id="lenguajes">
+<option value="java">
+<option value="python">
+</datalist>
+<label> que leguage quieres que te ayude?
+<input list="lenguajes" name="lenguajes">
+</label>
+</div>
+<input type="submit" value="enviar datos">
+</form>
+</section>
+<video
+width="320"
+height="240"
+src="c:\Users\Usuario\Downloads\Rick Astley - Never Gonna Give You Up (video oficial) __ Español.mp4"
+controls
+loop></video>
+<audio src="http://ftp.kameli.net/pub/mp3/roz/Humanity.mp3" controls>
+Your browser does not support the <code>audio</code> element.
+</audio>
+<footer>
+

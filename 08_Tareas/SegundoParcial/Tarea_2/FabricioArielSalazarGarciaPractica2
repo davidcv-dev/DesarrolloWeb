@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Mi Portafolio</title>
+    <!--esta etiqueta sirve para que aparesca en los motores de busqueda-->
+    <meta name="description" content="Este es mi portafolio......">
+    <meta name="robots" content="index follow">
+    <link rel="icon" href="VSCODE/imagen 2.jpeg">
+    <style>
+        body{
+            background:  linear-gradient(to bottom right, #0d4e6e, #15284a, #4e2992);
+            height: 100vh;
+            margin: 0; 
+        }
+    </style>
+
+</head>
+<body>
+<h1> Portafolio de Fabricio</h1>
+<nav>
+    <a href="#experiencia">Experiencia</a>
+    <a href="#Proyectos">Proyectos Realizados</a>
+    <a href="#tecnologías">Mis tecnologías favoritas</a>
+    <a href="https://github.com" target="_blank">GitHub</a>
+</nav>
+<img src="perfil.jpg" 
+     alt="esta es el avatar de mi perfil"
+     title="mi avitar"
+     width="200"
+     height=200
+     >
+<p>Estudiante de la UNSXX Fabricio Ariel Salazar García, en la carrera de <strong> ingeniería informatica </strong> en el municipio de Llallagua.</p>
+<h2 id="experiencia">Experiencia</h2>
+<ul>
+ <li>Inshot</li>
+ <li>Photoshop</li>
+ <li>flstudio</li>
+ <li>Pastelería</li>
+</ul>
+<h3 id="Proyectos">Proyectos Realizados</h3>
+<ul>
+    <li>Elaboración de Trufas de Chocolate.</li>
+</ul>
+<aside>
+    <h3 id="tecnologías">Mis tecnologías favoritas</h3>
+    <ol type="A">
+        <li>java</li>
+        <li>Phyton</li>
+        <li>MYSQL</li>
+    </ul>
+</aside>
+<section>
+    <h3>Formulario de contacto</h3>
+    <form action="post" accept="/">
+    <fieldset>
+        <legend>Informacion de contacto</legend>
+    <label for="nombre">Nombre</label>
+    <input type="text" name="Nombre" id="Nombre" required><br><br>
+    <label>Correo:
+    <input type="email" name="Correo" id="Correo" required>
+    </label>
+    </fieldset>
+    <fieldset>
+        <h3>Informacion adicional</h3>
+        <label>Telefono
+            <input type="tel" name="telefono" id="telefono" pattern="(0-9){8}">
+        </label>
+    </fieldset>
+    <div>
+        <label for="why">¿Por qué quieres contactarme?</label>
+        <select>
+            <option value="Trabajo">Ofreme trabajo</option>
+            <option value="Proyecto">Hacerme un proyecto</option>
+            <option value="Otro">Otros</option>
+        </select><br>
+        <div>
+            <label for="terms">¿Aceptas los terminos?</label>
+            <input type="checkbox" name="terms" id="terms" required>
+        </div>
+    </div><br>
+    <div>
+        <datalist id="lenguages">
+            <option value="java">
+            <option value="kotlin">
+            <option value="Phyton">
+        </datalist>
+        <label> ¿Qué lenguaje quieres que te ayude?
+            <input list="Lenguages" name="Lenguages">
+    </label>
+    </div>
+    <input type="submit" value="Enviar datos">
+    
+</section>
+<video
+width="320"
+height="240"
+src="flstudio.mp4"
+controls
+loopz></video>
+
+<audio src="DJ.mp3" controls>
+    Your browser does not support the <code>audio</code> element.
+</audio>
+
+
+
+
+<footer>
+    <a href="mailto: hey@davidcv.dev"> enviame un correo</a>
+    <a href="tel:60494449">Llamame</a> 
+    <a href="whatsapp://send?text=hola david">enviame un whatsapp</a>
+    <p>Todos los derechos reservados @2024</p>
+</footer>
+</body>
+</html>
