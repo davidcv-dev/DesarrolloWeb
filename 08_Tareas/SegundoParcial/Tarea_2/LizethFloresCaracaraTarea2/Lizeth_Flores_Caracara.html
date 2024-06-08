@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--son como los parametros que tendran nuestros archivos-->
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Mi Portafolio</title>
+    <!--esta etiqueta sirve para que aparesca en los motores de busqueda-->
+    <meta name="description" content="este es mi portafolio.........">
+    <!--sirve para que podamos indexar para que no aparezca google sirve para que no se indexe  robots not follow-->
+    <meta name="robots" content="index follow">
+    <!--nos sirve para que nuestra pagina podamos mostrar un icono con nuestra foto-->
+    <link rel="icon" href="imagenes/foto.jpg">
+    <style><!--para el estilo-->
+        body{
+    
+           background-color: rgb(231, 231, 238);
+        }
+    </style>
+</head>
+<body>
+    <h1>Portafolio de Lizeth Flores</h1>
+    <nav>
+   <a href="#experiencia">Experiencia</a>
+   <a href="#proyectos">Proyectos</a>
+   <a href="#tecnologias">Tecnologias</a>
+   <a href="https:/github.com/Lizeth-Flores/" target="_blank">Mi Github</a>
+    </nav>
+    <img src="imagenes/foto.jpg" 
+    alt="este es el avatar de de mi perfil" 
+    title="mi avatar"
+    width="100"
+    height="100">
+    
+    <!-- <p> son parrafoso y <strong> para negrilla-->
+    <p>Estudiante de 3er año de la carrera  <strong> Ingenieria Informatica </strong> en el Area de Tecnologia </p>
+    <h2 id="Experiencia">Experiencia</h2>
+    <!--nos sirve para poner vinetas-->
+    <ul>
+        <li>Base de Datos</li>
+        <li>Programacion en java</li>
+        <li>Criptografia</li>
+    
+    </ul>
+    <h3 id="proyectos">Proyectos Realizados</h3>
+    <ul>
+        <li>Base de Datos para la Empresa Consultora Constructora Vicadri</li>
+    
+    </ul>
+    <aside>
+        <h3 id="tecnologias">Mis Tecnologias Favoritas</h3>
+        <!--enumera las listas <ol> -->
+        <ol type="A">
+            <li>java</li>
+            <li>Python</li>
+            <li>C</li>
+        </ul>
+    </aside>
+
+    <section> <!--para crear formulario-->
+        <div>
+            <label for="why">En que le podemos ayudar</label>
+            <select><!--te ayuda para poder seleccionar alguna lista-->
+                <option value="1">Ofreceme un trabajo</option>
+                <option value="2">Hacerme un trabajo</option>
+                <option value="3">Realizar un trabajo</option>
+                <option value="4">otros</option>
+            </select><br>
+            <div>
+                <label for="terms">aceptas los terminos</label>
+                <input type="checkbox" name="terms" id="terms" required>
+                </div>
+                </div><br>
+        <div><!--es un input puede completar el campo-->
+            <datalist id="Lenguajes">
+                <option value="java">
+                <option value="kotlin">
+                <option value="dart">
+            </datalist>
+            <label> Que lenguaje quieres que te ayude?
+                <input list="lenguajes" name="lenguajes">
+            </label>
+        </div>
+        <input type="submit" value="enviar datos">
+        </form>
+    </section>
+    <h3 id="Las cosas que me gustan">La musica que me gusta</h3>
+       <video
+       width="400"
+       height="400"
+       src="videos\Airbag.mp4"
+       controls
+       loop></video>
+       
+       <audio src="musica\Alex Ubago.mp3" controls>
+       Your browser does not support the <code>audio</code> element.
+       </audio>
+       <section> <!--para crear formulario-->
+        <h3>Formulario de Contacto</h3>
+        <form action="post" accept="/">
+        <fieldset>
+            <legend>Informacion de Contacto</legend>
+            <label for="nombre">Nombre</label><!--para poner nombre-->
+            <input type="text" name="nombre" id="nombre " required> <br><br>
+            <label>correo:
+            <input type="email" name="correo" id="correo"  required>
+
+          </label>
+        </fieldset>
+        <fieldset>
+            <h3>Informacion adicional</h3>
+         <label>telefono:
+         <input type="tel" name="telefono" id="telefono" pattern=(0-9){8}>
+         </label>
+        </fieldset>
+        </form>
+        </section>
+    <footer>
+        <footer>
+            <h3 id="proyectos">Como puedes contartacrme</h3>
+            <a href="lflorescaracara@gmail.com"> enviame un correo</a>
+            <br><!--se utiliza para saltos de linea-->
+            <a href="tel:+59168326611">llamame</a>
+            <br><!--se utiliza para saltos de linea-->
+            <a href="whatsapp://send?text=hola Lizeth">enviame un whatsapp</a>
+            <br><!--se utiliza para saltos de linea-->
+            <pag>todos los derechos reservados@2024</pag>
+          </footer>
+    
+    </footer>
+</body>
+</html>
