@@ -1,0 +1,42 @@
+
+	<style>
+		body{
+			background: green;
+		}
+	</style>
+	<h1> mi portaforio </h1>
+<fieldset>
+	<img src="C:\Users\Dell\Pictures\Camera Roll\WIN_20240422_16_45_36_Pro.jpg" 
+        width="100"
+        height="100"><br>
+			<legend><b>informacion personal</b></legend>
+			<label for ="nombre">nombre:</label>
+			<input name="nombre" id="nombre"required>
+			<label for="apellido">apellido:</label>
+			<input name="apellido"required><br><br>
+		
+			<label>correo:
+				<input type="email" name="correo" id="correo" required></label>
+			<label>telefono:
+				<input type="telefono" name="telefono"required></label>
+					<br>
+					<br><input type="submit" value="enviar datos">
+		</fieldset>
+
+		<fieldset>
+			<h3><b> mis pasatiempos son:</b></h3>
+			<div style="display: flex;align-items: center;">
+				<img src="C:\Users\Dell\Pictures\Camera Roll\images (1).jpeg"
+				width="50"
+                height="50"
+                p><tr>baloncesto</p></div>
+				<div style="display: flex;align-items: center;">
+					<img src="C:\Users\Dell\Pictures\Camera Roll\images.jpeg"
+					width="50"
+                     height="50">
+                     <tr>juegos de red</p></div>
+		</fieldset>
+		<fieldset>
+			<h3> mas informacion sobre la materia </h3><br>
+			<a href="https://youtu.be/TUrY-BKJVbE" title='te lo recomienda milton'>preciones aqui</a><br>
+		</fieldset>
