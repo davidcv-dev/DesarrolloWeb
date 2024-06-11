@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <!--esta etiqueta sirve para que aparezca en los motores de busqueda-->
+    <meta name="description" content="este es mi portafolio........">
+    <meta name="robots" content="index follow">
+    <link rel="icon" href="imagenes/foto.jpeg">
+    <style>
+        body{
+            background-color: #9e8bc5;
+        }
+    </style>
+</head>
+<body>
+    <h1>Portafolio de Nifda</h1>
+    <nav>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#tecnologias">Tecnologías</a>
+        <a href="https://github.com/NifdaJV" target="_blank">Mi GitHub</a>
+    </nav>
+    <img src="fotos.jpeg" alt="esta es el avatar dde mi perfil" title="mi avatar" width="200" height="300">
+    <p>2 años de experiencia como desarrolladora<strong>informatica</strong> en el area de desarrollo</p>
+    <h2 id="experiencia">Experiencia</h2>
+    <ul>
+        <li>unsxx 2023</li>
+        <li>desarrolladora en java</li>
+        <li>futura aux de algebra</li>
+        <li>futura aux en fisica</li>
+    </ul>
+    <h3 id="proyectos">Proyectos Realizados</h3>
+    <aside>
+        <h3 id="tecnologias">Mis Tecnologias Favoritas</h3>
+        <ol type="A">
+            <li>java</li>
+            <li>mysql</li>
+            <li>python</li>
+        </ol>
+    </aside>
+    <section>
+        <h3>Formulario de Contacto</h3>
+        <form action="post" accept-charset="utf-8">
+            <fieldset>
+                <legend>Información de Contacto</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" required><br><br>
+                <label>Correo:</label>
+                <input type="email" name="correo" id="correo" required>
+            </fieldset>
+            <fieldset>
+                <h3>Información Adicional</h3>
+                <label>Teléfono:
+                <input type="tel" name="telefono" id="telefono" pattern="[0-9]{8}">
+                </label>
+                <label for="why">¿Necesitas ayuda?</label>
+                <select name="why" id="why">
+                    <option value="1">Ofrecerme un Trabajo</option>
+                    <option value="2">Ayudarme con un Proyecto</option>
+                    <option value="3">Otros</option>
+                </select>
+                <label for="terms">Aceptas los términos:</label>
+                <input type="checkbox" name="terms" id="terms" required>
+            </fieldset>
+            <datalist id="lenguajes">
+                <option value="java">
+                <option value="mysql">
+                <option value="python">
+            </datalist>
+            <label>¿Qué lenguaje quieres que te ayude?
+            <input list="lenguajes" name="lenguajes">
+            </label>
+            <input type="submit" value="enviar datos">
+        </form>
+    </section>
+    <section>
+        <video width="320" height="240" controls loop>
+            <source src="videos.mp4">
+        Your browser does not support the video tag.
+        </video>
+        <audio src="folklore.mp4" controls>
+        Your browser does not support the audio element.
+        </audio>
+    </section>
+    <footer>
+        <a href="mailto:hey@davidcv.dev"> enviame un correo</a>
+        <a href="tel:+59174116315">llamame</a>
+        <a href="whatsapp://send?text=hola david">enviame un whatsapp</a>
+        <p>Todos los derechos reservados @2024</p>
+    </footer>
+</body>
+</html>

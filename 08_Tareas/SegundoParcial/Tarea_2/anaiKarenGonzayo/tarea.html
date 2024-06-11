@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <!-- esta etiqueta sirve para que aparezca en los motores de busqueda -->
+    <meta name="description" content="Este es mi portafolio">
+    <meta name="robots" content="index follow">
+    <link rel="icon" href="\Users\hp\Downloads\doja.jpg">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f0f4f8;
+            font-family: 'Poppins', sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        h1, h2, h3 {
+            color: #4a90e2;
+        }
+        nav {
+            background-color: #4a90e2;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 600;
+        }
+        section, aside {
+            padding: 20px;
+            margin: 10px;
+            background: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #4a90e2;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        a {
+            color: #4a90e2;
+        }
+        input, select {
+            margin: 10px 0;
+            padding: 10px;
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background-color: #4a90e2;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #357ab8;
+        }
+    </style>
+</head>
+<body>
+    <h1>Portafolio de Ana</h1>
+    <nav>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#tecnologias">Tecnologías</a>
+        <a href="https://github.com/Karengnz" target="_blank">Mi GitHub</a>
+    </nav>
+    <section>
+        <img src="\Users\hp\Downloads\ANA.jpeg" alt="esta es el avatar de mi perfil" width="100" height="100">
+        <p><strong>Soy estudiante de segundo año de Ingeniería Informática en ANA. Durante los últimos dos años, adquirí una base sólida en conceptos fundamentales de informática y programación, y tuve la oportunidad de aplicar estos conocimientos en proyectos prácticos y colaborativos.</strong></p>
+        <h2 id="experiencia">Experiencia</h2>
+        <ul>
+            <li>Gastronomía: Un viaje sensorial a través de sabores y culturas, desde el picante de Bangkok hasta la frescura de Toscana.</li>
+            <li>Edición: Refinando palabras, puliendo ideas, transformando textos en obras maestras literarias.</li>
+            <li>Programación: Construyendo mundos con código, materializando sueños en la realidad digital.</li>
+        </ul>
+    </section>
+    <aside>
+        <h3 id="proyectos">Proyectos Realizados</h3>
+        <h3 id="tecnologias">Mis Tecnologías Favoritas</h3>
+        <ol type="0x">
+            <li>App de Recetas: Un universo culinario en tu bolsillo, con recetas de todo el mundo, consejos de expertos y la posibilidad de compartir tus creaciones.</li>
+            <li>Juego Educativo: Aprendizaje divertido e interactivo, donde los niños exploran el mundo a través de juegos, acertijos y desafíos creativos.</li>
+            <li>Herramienta de Productividad: Tu asistente personal digital, organizando tareas, optimizando tu tiempo y mejorando tu eficiencia.</li>
+        </ol>
+    </aside>
+    <section>
+        <h3>Formulario de Contacto</h3>
+        <form action="post" accept-charset="UTF-8">
+            <fieldset>
+                <legend>Información de Contacto</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" required><br><br>
+                <label>Correo:
+                    <input type="email" name="correo" id="correo" required>
+                </label>
+            </fieldset>
+            <fieldset>
+                <h3>Información Adicional</h3>
+                <label>Teléfono:
+                    <input type="tel" name="telefono" id="telefono" pattern="[0-9]{8}">
+                </label>
+            </fieldset>
+            <div>
+                <label for="why">¿Por qué quieres contactarme?:</label>
+                <select name="why" id="why">
+                    <option value="0">Ofrecerme un Trabajo</option>
+                    <option value="1">Realizar un Proyecto</option>
+                    <option value="2">Otros</option>
+                </select>
+            </div>
+            <div>
+                <label for="terms">¿Aceptas los términos?:</label>
+                <input type="checkbox" name="terms" id="terms" required>
+            </div>
+            <datalist id="languages">
+                <option value="recetas">
+                <option value="edición">
+                <option value="programación">
+            </datalist>
+            <label>¿En qué quieres que te ayude?
+                <input list="languages" name="lenguajes">
+            </label>
+            <input type="submit" value="Enviar datos">
+        </form>
+    </section>
+    <section>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6azspRM21XI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <audio src="file:///C:/Users/hp/Music/Music/Doja%20Cat%20%20Say%20So%20(Lyrics)%20Why%20dont%20you%20say%20so_-mc.m4a" controls>
+        Your browser does not support the <code>audio</code> element.
+    </audio>
+    <footer>
+        <a href="mailto:heyadavidcv.dev">Envíame un correo</a>
+        <a href="tel:+5917116315">Llámame</a>
+        <a href="https://api.whatsapp.com/send?text=hola david">Envíame un whatsapp</a>
+        <p>Todos los derechos reservados ©2024</p>
+    </footer>
+</body>
+</html>
