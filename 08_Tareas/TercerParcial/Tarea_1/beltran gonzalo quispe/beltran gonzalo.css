@@ -1,0 +1,48 @@
+.main{
+    width: 500px;
+    height: 500px;
+    border: rgb(0, 0, 0) 10px solid;
+    background-color: rgba(29, 52, 50, 0.374);
+    position: absolute;
+}
+.bel1{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.bel2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 251, 0);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.bel3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(56, 42, 165);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.bel4{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    left:0;
+    bottom: 0;
+}
+.bel5{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(247, 255, 254);
+    position: absolute;
+    border-radius: 50%;
+    right: 40%;
+    bottom: 40%;
+}
