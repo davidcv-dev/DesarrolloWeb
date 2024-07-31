@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)blob:https://codi.link/10955d3c-80fe-4710-9607-88edcef97b8e -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style id="preview-style">
+      
+section {
+    width: 300px;
+    height: 200px;
+    background-color: rgb(66, 21, 21);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 10;
+    bottom: 10;
+    margin: auto;
+}
+
+.contenedor-1 {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(176, 196, 66, 0.712);
+    position: absolute;
+    left: 0;
+    top: 0;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.contenedor-2 {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(26, 130, 32);
+    position: absolute;
+    right: 0;
+    top: 0;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.corazon-3 {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(4, 226, 141);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.corazon-4 {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(182, 0, 30);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+h2
+{
+  text-align: center;  
+}
+
+h3 {
+    text-align: center;
+}
+    </style>
+    <script>
+    const customConsole = (w) => {
+      const pushToConsole = (payload, type) => {
+        w.parent.postMessage({
+          console: {
+            payload: payload,
+            type:    type
+          }
+        }, "*")
+      }
+
+      pushToConsole("clear", "system")
+
+      w.onerror = (message, url, line, column) => {
+        const DEFAULT_LINE_HEIGHT = 53
+        const htmlLines = 27
+        const cssLines = 61
+        const fixedLine = line - DEFAULT_LINE_HEIGHT - htmlLines - cssLines
+        pushToConsole({line:fixedLine, column, message}, "error")
+      }
+
+      const console = {
+        log: function(...args){
+          pushToConsole(args, "log:log")
+        },
+        error: function(...args){
+          pushToConsole(args, "log:error")
+        },
+        warn: function(...args){
+          pushToConsole(args, "log:warn")
+        },
+        info: function(...args){
+          pushToConsole(args, "log:info")
+        }
+      }
+
+      window.console = { ...window.console, ...console }
+    }
+
+    if (window.parent){
+      customConsole(window)
+    }
+  </script>
+  </head>
+  <body>
+    
+
+
+
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MI PRIMERA TAREA DEL TERCER PARCIAL</title>
+    <link rel="stylesheet" href="">
+
+
+
+
+    <h2>hola mundo de html</h2>
+    <h3>mi primera tarea</h3>
+    <section>
+        <div class="contenedor-1"></div>
+        <div class="contenedor-2"></div>
+        <div class="corazon-3"></div>
+        <div class="corazon-4"></div>
+        <div class="contenedor-5"></div>
+        
+    </section>
+
+
+
+
+    <script type="module">
+
+    </script>
+  
+</body></html>
