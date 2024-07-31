@@ -1,0 +1,71 @@
+/* Hernan Ordoñez Sangueza*/
+section {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.contenedor-1 {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(231, 64, 13);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.contenedor-2 {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(73, 45, 2);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.contenedor-3 {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(4, 226, 141);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.contenedor-4 {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(79, 0, 182);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.contenedor-5 {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(234, 236, 67);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+h2 {
+    margin: auto;
+    background-color: rgb(157, 197, 231);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
