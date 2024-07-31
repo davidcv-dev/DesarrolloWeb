@@ -1,0 +1,46 @@
+.container {
+    position: relative;
+    width: 300px;
+    height: 300px; 
+    background-color: rgb(196, 249, 217); 
+    margin: 20px;
+    border: 2px solid black;
+    box-sizing: border-box;
+  }
+  
+  .caja {
+    width: 50px; 
+    height: 50px; 
+    position: absolute;
+  }
+  
+  .uno {
+    top: 0;
+    left: 0;
+    background-color: red;
+  }
+  
+  .dos {
+    bottom: 0;
+    left: 0;
+    background-color: green;
+  }
+  
+  .tres {
+    bottom: 0;
+    right: 0;
+    background-color: blue;
+  }
+  
+  .cuatro {
+    top: 0;
+    right: 0;
+    background-color: rgb(183, 0, 255);
+  }
+  
+  .cinco {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: yellow;
+  }
