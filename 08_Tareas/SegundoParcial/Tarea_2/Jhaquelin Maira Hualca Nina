@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="URF-8">
+        <meta name="viewport" content="width=decive-width">
+        <title>MI PORTAFOLIO</title>
+        <!--esta etiqueta sirve para que aparesca en los mentores de busqueda-->
+        <meta name="description" content="got bether things to do why my time">
+        <meta name="robots" content="index follow">
+        <link rel="icon" href="imagenes/foto.jpg">
+        <style>
+            body{
+                background-color: lightblue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1><strong>Portafolio De MAIRA</strong></h1>
+<nav>
+<a href="#experiencia">Experiencia</a>
+<a href="#proyectos">Proyectos</a>
+<a href="#tecnologias">Tecnologias</a>
+</nav>
+        <img src="https://images.app.goo.gl/ajVvaKt6Rcx3myg76" 
+        alt="avatar de perfil"
+        title="mi avatar"
+        width="250px"
+        height="200px"
+        >
+        <P>Estudiando para ser futura programadora</P>
+        <h2>EXPERENCIAS</h2>
+        <ul>
+            <li>Universidad Nacional Siglo XX</li>
+        </ul>
+        <h3 id="Proyectos realizados">PROYECTOS REALIZADOS</h3>
+        <aside>
+            <h3 id="Mis sistemas operativos favoritos">Mis sistemas operativos favoritos</h3>
+            <ol type="I">
+                <li>Windows</li>
+                <li>Linux</li>
+            </ul>
+        </aside>
+<section>
+<h3>Formulario de Contacto</h3>
+<form action="post" accept="/">
+<fieldset>
+<legend>Informacion de Contacto</legend>
+<label for="nombre">Nombre:</label>
+<input type="text" name="nombre" id="nombre" required><br>
+<label>Correo:
+<input type="email" name="correo" id="correo" required>
+</label>
+</fieldset>
+<fieldset>
+<h3>Informacion Adicional</h3>
+<label>Telefono:
+<input type="tel" name="telefono" id="telefono" pattern="(8-9)(8)">
+</label>
+</fieldset>
+<div>
+<label for="why">Por que quieres Contactarme</label>
+<Select>
+<option value="1">Ofrecerme un Trabajo</option>
+<option value="2">Hacerme un Proyecto</option>
+<option value="3">Otros</option>
+</Select><br>
+<div>
+<label for="terms">aceptas los terminos</label>
+<input type="checkbox" name="terms" id="terms" required>
+</div>
+</div><br>
+<div>
+<datalist id="lenguages">
+<option value="java">
+<option value="c">
+<option value="html">
+</datalist>
+<label> que leguage quieres que te ayude?
+<input list="Lenguages" name="lenguages">
+</label>
+</div>
+<input type="submit" value="enviar datos">
+</form>
+</section>
+        <footer>
+            <a href="jhnmaira@gmail.com">enviame un correo</a>
+            <a href="tel:+59168578828">llamame</a>
+            <p><strong>los derechos de autor son reservados a @2024</strong></p>
+            <a href="whatsapp://send?text=Mucho gusto Maira">hablame al pv</a>
+        </footer>
+    </body>
+</html>
