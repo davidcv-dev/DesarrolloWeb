@@ -1,0 +1,49 @@
+.main {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border: 10px solid #000;
+    background-color:black;
+  }
+  .cont {
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    position: absolute;
+    right: 50%;
+    left: 44%;
+    top: 44%;
+    bottom: 50%;
+  }
+  .cont-4 {
+    width: 70px;
+    height: 70px;
+    background-color:yellow;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  .cont-1 {
+    width: 70px;
+    height: 70px;
+    background-color:green;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .cont-2 {
+    width: 70px;
+    height: 70px;
+    background-color:blueviolet;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .cont-3 {
+    width: 70px;
+    height: 70px;
+    background-color: blue;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
