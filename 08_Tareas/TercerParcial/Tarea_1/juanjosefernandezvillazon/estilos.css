@@ -1,0 +1,60 @@
+body{
+ background-color: aqua;   
+}
+
+section {
+    width: 20vw;
+    height: 40vh;
+    background-color:aqua;
+    position: absolute;
+    margin: auto;
+    border: 3px solid black;
+    
+}
+.color1{
+    
+    position: absolute;
+    width: 5vw;
+    height: 10vh ;
+    left: 0;
+    top: 0;
+    background-color: red;
+
+}
+.color2{
+    position: absolute;
+    width: 5vw;
+    height: 10vh ;
+    right: 0;
+    top: 0;
+    background-color: blue;
+}
+
+.color3{
+    position: absolute;
+    width: 5vw;
+    height: 10vh ;
+    left: 0;    
+    bottom: 0; 
+    background-color: yellow;
+}
+.color4{
+    position: absolute;
+    width: 5vw;
+    height: 10vh ;
+    right: 0;
+    bottom: 0; 
+    background-color: green;
+}
+
+.color5{
+    position: absolute;
+    width: 5vw;
+    height: 10vh ;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0; 
+    background-color: black;
+    margin: auto;
+}
