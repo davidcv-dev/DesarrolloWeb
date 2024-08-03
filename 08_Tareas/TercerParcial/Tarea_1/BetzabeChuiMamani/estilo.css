@@ -1,0 +1,50 @@
+.main {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border: 10px solid #ff0303;
+    background-color: brown;
+  }
+  .content{
+    width: 70px;
+    height: 70px;
+    background-color: yellow;
+    position: absolute;
+    right: 50%;
+    left: 44%;
+    top: 44%;
+    bottom: 50%;
+}
+.content-4{
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+ }
+ .content-1{
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.content-2{
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.content-3{
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
