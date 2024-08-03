@@ -1,0 +1,76 @@
+section{
+    width: 300px;
+    height: 300px;
+    border: 5px solid;
+    position: absolute;
+  }
+  div{
+    background-color: brown;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom:0;
+    right:0;
+  
+  }
+  section{
+    width: 300px;
+    height: 300px;
+    border: 5px solid;
+    position: absolute;
+  }
+  div1{
+    background-color: aquamarine;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom:1;
+    right:0;
+  
+  }
+  section{
+    width: 300px;
+    height: 300px;
+    border: 5px solid;
+    position: absolute;
+  }
+  div2{
+    background-color: rgb(138, 165, 42);
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom:1;
+    right:1;
+  
+  }
+  section{
+    width: 300px;
+    height: 300px;
+    border: 5px solid;
+    position: absolute;
+  }
+  div3{
+    background-color: rgb(165, 42, 120);
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom:0;
+    right:1;
+  }
+  section{
+    width: 300px;
+  height: 300px;
+ border: 5px solid;
+  position: absolute;
+}
+div4{
+  height: 300px;
+  width:300px ;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+  
+/*atraves de una etiqueta 
+//atravez de una atributo
+//atravez de un archivo*/
