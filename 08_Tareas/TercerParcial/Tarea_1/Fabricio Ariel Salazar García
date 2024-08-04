@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 1 3er parcial</title>
+    <link rel="stylesheet" href="Estilo.css">
+</head>
+<body>
+    <h1>Práctica 1 3er parcial</h1>
+    <section>
+        <div class="cuad1"></div>
+        <div class="cuad2"></div>
+        <div class="cuad3"></div>
+        <div class="cuad4"></div>
+        <div class="cuad5"></div>
+    </section>
+
+</body>
+
+</html>
