@@ -1,0 +1,60 @@
+.container {
+    background-color: lightblue;
+    border: 5px solid black;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+.div1, .div2, .div3, .div4, .div5 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.div1 {
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    top: 15px;
+    left: 15px;
+}
+.div2 {
+    background-color: red;
+    align-items: flex-end;
+    width: 100px;
+    height: 100px;
+    top: 15px;
+    left: 140px;
+}
+.div3 {
+    background-color: orange;
+    align-items: flex-start;
+    width: 100px;
+    height: 100px;
+    top: 15px;
+    left: 270px;
+}
+.div4 {
+    background-color: green;
+    align-items: flex-end;
+    width: 100px;
+    height: 100px;
+    top: 140px;
+    left: 15px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+.div5 {
+    background-color: gold;
+    align-items: flex-start  ;
+    width: 100px;
+    height: 100px;
+    top: 260px;
+    left: 15px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
