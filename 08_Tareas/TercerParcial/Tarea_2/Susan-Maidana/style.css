@@ -1,0 +1,66 @@
+.container {
+    background-color: rgb(227, 166, 233);
+    border: 5px solid black;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.div1, .div2, .div3, .div4, .div5 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.div1 {
+    background-color: rgb(200, 35, 209);
+    width: 100px;
+    height: 100px;
+    top: 15px;
+    left: 15px;
+}
+
+.div2 {
+    background-color: rgb(198, 209, 94);
+    align-items: flex-end;
+    width: 100px;
+    height: 100px;
+    top: 15px;
+    left: 140px;
+}
+
+.div3 {
+    background-color: rgb(135, 206, 250);
+    align-items: flex-start;
+    width: 100px;
+    height: 100px;
+    top: 15px;
+    left: 270px;
+}
+
+.div4 {
+    background-color: rgb(113, 21, 200);
+    align-items: flex-end;
+    width: 100px;
+    height: 100px;
+    top: 140px;
+    left: 15px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+
+.div5 {
+    background-color: orange;
+    align-items: flex-start  ;
+    width: 100px;
+    height: 100px;
+    top: 260px;
+    left: 15px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
