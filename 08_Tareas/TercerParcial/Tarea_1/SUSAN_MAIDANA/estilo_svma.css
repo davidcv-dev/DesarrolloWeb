@@ -1,0 +1,45 @@
+section{
+    width: 300px;
+    height: 300px;
+    border: 5px solid;
+    position: absolute;
+  }
+  .div1{
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+    position: absolute; 
+    bottom: 0;
+    right: 0;
+    }
+    .div2{
+    background-color: rgb(255, 0, 140);
+    width: 50px;
+    height: 50px;
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+    }
+     .div3{
+    background-color: rgb(0, 255, 170);
+    width: 50px;
+    height: 50px;
+    position: absolute; 
+    }
+  .div4{
+    background-color: rgb(179, 255, 0);
+    width: 50px;
+    height: 50px;
+    position: absolute; 
+    right: 0;
+  }
+  
+  .div5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px; 
+    height: 50px; 
+    background-color: rgb(217, 118, 241); 
+  }
