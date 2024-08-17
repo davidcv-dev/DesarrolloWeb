@@ -1,0 +1,58 @@
+
+.container {
+    background-color: cyan;
+    position: relative;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    border: 5px solid black;
+}
+
+.caja {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: black;
+}
+
+.uno {
+    background-color: chartreuse;
+    top: 10px;
+    left: 10px;
+}
+
+.dos {
+    align-items: end;
+    background-color: mediumvioletred;
+    top: 10px;
+    left: 110px;
+}
+
+.tres {
+    align-items: start;
+    background-color: brown;
+    top: 10px;
+    left: 210px;
+}
+
+.cuatro {
+    align-items: flex-start;
+    background-color: lightgreen;
+    top: 110px;
+    left: 10px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+
+.cinco {
+    align-items: flex-end;
+    background-color: rgb(2, 174, 2);
+    top: 210px;
+    left: 10px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
