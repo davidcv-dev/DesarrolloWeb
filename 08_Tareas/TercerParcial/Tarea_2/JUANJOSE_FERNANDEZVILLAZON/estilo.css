@@ -1,0 +1,72 @@
+body{
+    background-color: aqua;
+}
+.container {
+    background-color: aqua;
+    width: 35vw;
+    height: 70vh;
+    margin: auto;
+    border: 3px solid black;
+}
+.color1,.color2,.color3,.color4,.color5 {
+    width: 10vw;
+    height: 20vh;
+    margin: 10px;    
+    padding: 0px;
+    display: flex;
+}
+
+.palabra1,.palabra2,.palabra3 {
+    margin: 0;
+}
+
+.color1,.color2,.color3 {
+    justify-content: center;
+}
+
+.color1 {
+    background-color:yellow;
+    align-items: center;
+}
+
+.color2 {
+    background-color: pink;
+    align-items: flex-end;
+}
+
+.color3 {
+    background-color:red;
+    align-items: flex-start;
+}
+
+.color4 {
+    background-color: green;
+}
+
+.color5 {
+    background-color: rgb(3, 41, 3);
+}
+
+.grupo1 { /*grupo1*/
+    display: flex;
+}
+
+.grupo2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.color4,.color5 {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.palabra4,.palabra5 {
+    margin: 0;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+
+.color5 {
+    align-items: flex-end;
+}
