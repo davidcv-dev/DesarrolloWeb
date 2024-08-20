@@ -1,0 +1,68 @@
+.container {
+    box-sizing: border-box;
+    background-color: #579895;
+    width: 500px;
+    height: 500px;
+    border: black 5px solid;
+}
+.contenedor-1,
+.contenedor-2 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    position: relative;
+    color: rgb(68, 8, 136);
+    padding: 0px;
+    text-align: center;
+}
+.grupo-1 .contenedor-1:nth-child(1) {
+    background-color: rgb(255, 0, 0);
+}
+.grupo-1 .contenedor-1:nth-child(2) {
+    background-color: rgb(230, 212, 212);
+}
+.grupo-1 .contenedor-1:nth-child(3) {
+    background-color: rgb(165, 221, 24);
+}
+.grupo-2 .contenedor-2:nth-child(1) {
+    background-color: rgb(224, 196, 15);
+}
+.grupo-2 .contenedor-2:nth-child(2) {
+    background-color: rgb(135, 150, 216);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.palabra-1 {
+    position: absolute;
+    left: 30px;
+    bottom: 25px;
+}
+.palabra-2 {
+    position: absolute;
+    bottom: 0;
+    right: 25px;
+    margin:auto;
+}
+.palabra-3 {
+    margin: 0;
+    top:0;
+}
+.palabra-4 {
+    width: 15px;
+    font-size: 15px;
+    word-wrap: break-word;
+}
+.palabra-5{
+    width: 15px;
+    font-size: 15px;
+    word-wrap: break-word;
+}
+.grupo-1 {
+    display: flex;
+}
+
+.grupo-2 {
+    display: flex;
+    flex-direction: column;
+}
