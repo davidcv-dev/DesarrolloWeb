@@ -1,0 +1,73 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    background-color: #ffffff; 
+}
+
+.container {
+    width: 70%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 4px solid rgb(8, 8, 8);
+    background-color: #f9f7f9; 
+}
+
+.cuadrado1, .cuadrado2, .cuadrado3, .cuadrado4, .cuadrado5 {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cuadrado1 {
+    background-color: #51310d;
+    writing-mode: horizontal-tb;
+}
+
+.cuadrado2 {
+    background-color: #47355b; 
+    writing-mode: horizontal-tb;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.cuadrado3 {
+  background-color: #4f9b4d; 
+    writing-mode: horizontal-tb;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+   
+}
+
+.cuadrado4 {
+  background-color: #d3d86e; 
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-end;
+    writing-mode: vertical-rl; 
+    text-orientation: upright; 
+    width: 150px; 
+    height: 150px; 
+   
+}
+
+.cuadrado5 {
+    background-color: #4e4c4e; 
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    writing-mode: vertical-rl; 
+    text-orientation: upright; 
+    width: 150px;     height: 150px;   
+}
