@@ -1,0 +1,40 @@
+section {
+    border: 5px solid;
+    background-color: rgb(18, 19, 19);
+}
+.grid{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+    padding: 10px;
+
+}
+
+.item {
+    color:rgb(244, 247, 249);
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    border: 5px solid black;
+}
+.item1 {
+    background-color: blue;
+    grid-column: span 2;
+}
+
+.item2 {
+    background-color: red;
+    margin-right: 100px;   
+}
+
+.item3 {
+    background-color: green;
+    margin-left: 100px;
+}
+
+.item4 {
+    background-color: orange;
+    grid-column: span 2;
+}
