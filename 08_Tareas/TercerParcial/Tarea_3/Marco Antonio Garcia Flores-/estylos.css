@@ -1,0 +1,31 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+    column-gap: 100px;
+    row-gap: 20px;
+    padding: 5px;
+    width: 500px;
+    background-color: black;
+    border: 5px solid red;
+}
+.item {
+    padding: 20px;
+    color: white;
+    font-size: 25px;
+    text-align: inherit;   
+}
+.item1 { 
+    background-color: blue; 
+    grid-column: span 2; 
+}
+.item2 { 
+    background-color: red; 
+}
+.item3 { 
+    background-color: green; 
+}
+.item4 { 
+    background-color: orange; 
+    grid-column: span 2; 
+}
