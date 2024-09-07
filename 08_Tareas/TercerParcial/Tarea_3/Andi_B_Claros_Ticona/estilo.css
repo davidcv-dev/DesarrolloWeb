@@ -1,0 +1,45 @@
+.contenedor {
+    width: 500px;
+    background-color: rgb(43, 39, 39);
+    color: black;
+    border: 8px solid red;
+    display: grid;
+    row-gap: 10px;
+    column-gap: 100px;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(3, 100px);
+    margin: auto;
+}
+
+.cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 8px solid black; 
+}
+
+.contenedor1 {
+    background: dodgerblue;
+    grid-column: 1/3;
+    text-align: left;
+}
+
+.contenedor2 {
+    background: red;
+}
+
+.contenedor3 {
+    background: green;
+}
+
+.contenedor4 {
+    background: orangered;
+    grid-column: 1/3;
+    text-align: left;
+}
+
+.contenedor1, .contenedor4 {
+    text-align: left;
+    justify-content: flex-start; 
+    padding-left: 68px; 
+}
