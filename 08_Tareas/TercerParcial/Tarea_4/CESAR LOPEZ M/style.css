@@ -1,0 +1,43 @@
+.lopez{
+background-color: rgb(242, 246, 247);
+border: 2px rgb(240, 236, 236);
+display :grid;
+grid-template-columns: 1fr 1fr 1fr ;
+grid-auto-rows: 100px;
+  gap: 8px;
+
+
+} 
+.lopez div{
+  border-radius: 8px;
+}
+.lopez div:first-child{
+  background-color: rgb(139, 165, 230);
+  border: 2px;
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+}
+.item2{
+  background-color: rgb(139, 165, 230);
+  grid-column: 2/4;   
+  grid-row: 2/4;  
+   
+}
+.item3{
+  background-color: rgb(139, 159, 242);
+    grid-row-start:4;
+  grid-row-end:3;
+}
+.item4{
+  background-color: rgb(139, 165, 230);
+    grid-row-start:1;
+  grid-row-end:2;
+}
+.lopez6{
+  background-color: rgb(139, 165, 230);
+   grid-row-start:2 ;
+  grid-row-end:1;
+   
+}
+
