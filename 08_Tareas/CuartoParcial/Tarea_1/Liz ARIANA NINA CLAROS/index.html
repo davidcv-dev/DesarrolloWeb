@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Caracteres</title>
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Contador de Caracteres</h1>
+    <input type="text" id="frase" placeholder="Ingresa una cadena" required>
+    <input type="text" id="letra" maxlength="1" placeholder="Carácter a contar" required>
+    <button onclick="contar()">Contar</button>
+    <p id="resultado"></p>
+
+    <script>
+        function contar() {
+            const frase = document.getElementById('frase').value;
+            const letra = document.getElementById('letra').value;
+            const total = [...frase].filter(c => c === letra).length;
+            document.getElementById('resultado').innerText = `La letra '${letra}' se repite ${total} veces.`;
+        }
+    </script>
+</body>
+</html>
